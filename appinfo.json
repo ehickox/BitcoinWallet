@@ -1,0 +1,21 @@
+{
+  "uuid": "cdbc303c-b92c-45bf-8250-2532eb0a9bd5",
+  "shortName": "BitcoinWallet",
+  "longName": "BitcoinWallet",
+  "companyName": "ESHoft",
+  "versionCode": 1,
+  "versionLabel": "0.0.1",
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {},
+  "resources": {
+    "media": [
+        {
+            "type": "png",
+            "name": "IMAGE_WALLET",
+            "file": "images/wallet.png"
+        }
+    ]
+  }
+}
