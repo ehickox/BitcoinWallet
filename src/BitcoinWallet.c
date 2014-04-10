@@ -8,12 +8,13 @@ static void layer_update_callback(Layer *me, GContext* ctx){
 
     GRect bounds = image->bounds;
     graphics_draw_bitmap_in_rect(ctx, image, (GRect) { .origin = {5, 5}, .size = bounds.size});
-    graphics_draw_bitmap_in_rect(ctx, image, (GRect) { .origin = {144, 143}, .size = bounds.size});
+    graphics_draw_bitmap_in_rect(ctx, image, (GRect) { .origin = {140, 140}, .size = bounds.size});
 
 }
 
 int main(void){
     window = window_create();
+    window_set_background_color(window, GColorBlack);
     window_stack_push(window, true);
 
     Layer *window_layer = window_get_root_layer(window);
